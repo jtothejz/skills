@@ -1,0 +1,42 @@
+{
+  "printer": "HP_Smart_Tank_7000_series",
+  "page_size": "Letter",
+  "borderless": true,
+  "load_side": "print side down",
+  "papers": {
+    "plain":     {"label": "plain paper", "media": "stationery", "quality": "Normal"},
+    "glossy":    {"label": "glossy photo paper", "media": "photographic-glossy", "quality": "High", "one_sided_only": true},
+    "cardstock": {"label": "cardstock", "media": "com.hp-matte-brochure", "quality": "High"}
+  },
+  "kinds": {
+    "flyer":    {"paper": "glossy"},
+    "sign":     {"paper": "glossy"},
+    "postcard": {"paper": "cardstock", "sides": "auto"},
+    "booklet":  {"paper": "cardstock", "sides": "auto"},
+    "program":  {"paper": "cardstock", "fold": "booklet"},
+    "document": {"paper": "plain"}
+  },
+  "pieces": {
+    "show-postcards": {
+      "kind": "postcard",
+      "label": "Winter show postcards",
+      "aliases": ["show postcards"],
+      "file": "~/Dropbox/Design/Winter Show/Postcards 4-up.pdf",
+      "per_sheet": 4,
+      "after": "Cut the postcards: once down the middle, once across."
+    },
+    "show-flyer": {
+      "kind": "flyer",
+      "label": "Winter show flyers",
+      "aliases": ["show flyers"],
+      "file": "~/Dropbox/Design/Winter Show/Flyer.pdf"
+    },
+    "show-program": {
+      "kind": "program",
+      "label": "Winter show programs",
+      "aliases": ["programs"],
+      "file": "~/Dropbox/Design/Winter Show/Program pages 5.5x8.5.pdf",
+      "after": "Fold each program's sheets in half together."
+    }
+  }
+}
