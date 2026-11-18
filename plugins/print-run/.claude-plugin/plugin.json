@@ -1,0 +1,10 @@
+{
+  "name": "print-run",
+  "version": "0.1.0",
+  "description": "Print a mixed batch on your own printer with the right paper, settings and stack order: postcards, flyers, two-sided pieces, folded booklets",
+  "author": {
+    "name": "jtothez"
+  },
+  "license": "MIT",
+  "keywords": ["printing", "cups", "home-office", "booklet", "postcards"]
+}
