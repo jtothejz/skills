@@ -1,0 +1,10 @@
+{
+  "name": "music-cut",
+  "version": "0.1.0",
+  "description": "Cut a song to a time range so it ends like it was meant to: snaps cuts to the music, crossfades sections taken out, and catches the next phrase poking through the fade-out",
+  "author": {
+    "name": "jtothez"
+  },
+  "license": "MIT",
+  "keywords": ["music", "audio", "ffmpeg", "dance", "editing", "fade"]
+}

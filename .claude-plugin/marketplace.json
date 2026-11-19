@@ -14,6 +14,15 @@
       },
       "source": "./plugins/print-run",
       "category": "productivity"
+    },
+    {
+      "name": "music-cut",
+      "description": "Cut a song to a time range so it ends like it was meant to: snaps cuts to the music, crossfades sections taken out, and catches the next phrase poking through the fade-out",
+      "author": {
+        "name": "jtothez"
+      },
+      "source": "./plugins/music-cut",
+      "category": "productivity"
     }
   ]
 }
