@@ -1,0 +1,5 @@
+{
+  "out_dir": "~/Music/Cuts",
+  "format": "mp3",
+  "trim_trailing_silence": true
+}
